@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "repo-showcase",
-      "source": "./plugins/repo-showcase",
+      "name": "showcase",
+      "source": "./plugins/showcase",
       "description": "Package a GitHub project for launch: description and topics, selling-point README, GitHub Pages site, mock-data screenshots, one-command self-hosting, Thai PR and draft release."
     }
   ]
