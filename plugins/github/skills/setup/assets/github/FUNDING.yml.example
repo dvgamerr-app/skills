@@ -1,0 +1,4 @@
+# Rename to FUNDING.yml, supply your real funding destination and merge to main.
+# Also enable Settings > General > Features > Sponsorships.
+# github: YOUR_SPONSORS_USERNAME
+# custom: ['https://your-real-funding-url.example']

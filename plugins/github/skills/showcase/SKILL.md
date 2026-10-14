@@ -1,5 +1,5 @@
 ---
-name: builder
+name: showcase
 description: Packages a GitHub project for public launch. Rewrites the repo description and topics, writes a selling-point README (English plus Thai) with a star call to action, builds a GitHub Pages landing site, captures screenshots from mock data, makes self-hosting a one-command docker compose, then opens a Thai PR and a draft release. Use when the user says "ทำ github page", "แก้ readme ใหม่", "แก้ description setting", "ทำให้น่าสนใจ", "ให้กด star", "ใส่ screenshot", "ทำให้ deploy ง่าย", "make the repo launch-ready", or "polish this repo for open source". Do NOT use for only editing a PR body (use github:pr-rewrite) or for plain gh operations (use github:cli).
 metadata:
   version: 1.0.0

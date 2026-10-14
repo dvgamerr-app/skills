@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "showcase",
-      "source": "./plugins/showcase",
-      "description": "Package a GitHub project for launch: description and topics, selling-point README, GitHub Pages site, mock-data screenshots, one-command self-hosting, Thai PR and draft release."
+      "name": "github",
+      "source": "./plugins/github",
+      "description": "GitHub repo toolkit: setup applies the open-source org baseline (settings, Qlty PR checks, main ruleset); showcase packages a repo for launch (README, Pages site, screenshots, one-command self-hosting, Thai PR and draft release)."
     }
   ]
 }

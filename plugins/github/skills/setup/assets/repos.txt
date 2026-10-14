@@ -1,0 +1,3 @@
+# One owner/repository per line. Replace these comments with real targets.
+# your-org/service-a
+# your-org/service-b
