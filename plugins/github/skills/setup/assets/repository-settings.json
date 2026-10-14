@@ -1,0 +1,12 @@
+{
+  "default_branch": "main",
+  "has_wiki": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_projects": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "allow_merge_commit": true,
+  "merge_commit_title": "PR_TITLE",
+  "allow_squash_merge": false
+}
