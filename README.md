@@ -62,7 +62,7 @@ Both skills:
 
 github:setup:
 
-- PowerShell 7 (`pwsh`) or Windows PowerShell for `Apply-RepoSettings.ps1`
+- Bun for `apply-repo-settings.js` (and the GitHub CLI `gh`)
 - Admin on every target repo
 - [Qlty CLI](https://docs.qlty.sh/) locally to run `qlty init` in each target repo
 - [actionlint](https://github.com/rhysd/actionlint), optional, to lint the workflow
