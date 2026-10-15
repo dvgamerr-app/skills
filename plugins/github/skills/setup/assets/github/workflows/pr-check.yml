@@ -193,11 +193,11 @@ jobs:
             fs.writeFileSync('pr-report.md', body);
             await core.summary.addRaw(body).write();
       - name: Update sticky PR dashboard
-        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.actor != 'dependabot[bot]' }}
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.id != 49699333 }}
         uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-security-dashboard
           path: pr-report.md
       - name: Explain restricted comment permission
-        if: ${{ github.event_name == 'pull_request' && (github.event.pull_request.head.repo.full_name != github.repository || github.actor == 'dependabot[bot]') }}
+        if: ${{ github.event_name == 'pull_request' && (github.event.pull_request.head.repo.full_name != github.repository || github.event.pull_request.user.id == 49699333) }}
         run: echo 'Fork/Dependabot PR uses read-only credentials; dashboard is available in the Actions summary.'
